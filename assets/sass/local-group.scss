@@ -1,0 +1,437 @@
+@import "_config";
+
+#ui-id-7{
+	white-space:nowrap
+}
+.condensed_heading,.SocialSubGroup__heading{
+	text-transform:uppercase;
+	font-family:$sans-serif;
+	font-weight:$fontWeightRegular;
+	letter-spacing:.1em;
+	font-size:1em
+}
+.SocialAccount__iconContainer{
+	margin-right:.75em
+}
+.SocialAccount__iconList{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.SocialAccount__label{
+	line-height:1.2
+}
+h4.SocialAccount__label{
+	margin:0 0 .4em;
+	display:block;
+	text-align:center;
+	text-transform:none;
+	font-size:1em;
+	line-height:1.1;
+	font-weight:$fontWeightRegular;
+	font-family:$sans-serif;
+	letter-spacing:normal
+}
+@media screen and (min-width: 37.5em){
+	h4.SocialAccount__label{
+		margin:0 1em 1em;
+		text-align:right;
+		font-weight:$fontWeightRegular
+	}
+}
+.SocialAccountGroup{
+	margin-top:1.5em
+}
+.SocialAccountGroup .ui-tabs-nav li{
+	text-align:center;
+	font-size:.9em;
+	text-transform:uppercase
+}
+.SocialSubGroup__heading{
+	color:$gray-basic;
+	font-size:3em;
+	text-align:center;
+	margin-bottom:.5em
+}
+.ui-tabs .SocialAccountList.ui-tabs-panel{
+	padding:4em 0
+}
+.ui-tabs-nav{
+	font-weight:$fontWeightBold;
+	padding:0 !important;
+	margin:0
+}
+@media screen{
+	.pageGroup__about--connect .u-lAside,.pageGroup__about--connectIndex-working .u-lAside{
+		display:none;
+		visibility:hidden
+	}
+	.SocialAccount{
+		clear:left;
+		overflow:hidden;
+		padding:.2em 0;
+		margin-bottom:1em;
+		text-align:center
+	}
+	.SocialAccount__icon{
+		margin:0 0.25em;
+		width:2em
+	}
+	li.SocialAccount__iconContainer{
+		display:inline-block;
+		margin:0
+	}
+	.SocialAccountGroup .ui-tabs-nav li{
+		width:100%;
+		margin:.4em .2em 0
+	}
+	.SocialSubGroup .SocialAccount:last-child{
+		padding-bottom:1.75em
+	}
+	.ui-tabs-nav{
+		-webkit-box-align:start;
+		align-items:flex-start;
+		display:-webkit-box;
+		display:flex;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		flex-direction:column;
+		-webkit-box-pack:center;
+		justify-content:center
+	}
+	.ui-tabs-nav li{
+		padding:0;
+		display:block;
+		margin:0 .4em 0 .4em
+	}
+	.ui-tabs-nav li a{
+		display:block;
+		padding:.5em
+	}
+	.ui-tabs-nav li:last-child{
+		margin-right:0
+	}
+	.ui-tabs-nav li:first-child{
+		margin-left:0
+	}
+	.ui-widget-header .ui-state-default a{
+		width:100%
+	}
+}
+@media screen and (min-width: 37.5em){
+	.SocialAccount{
+		text-align:left
+	}
+	h4.SocialAccount__label{
+		float:left;
+		width:45%
+	}
+}
+@media screen and (min-width: 53.75em){
+	.ui-tabs-nav{
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		flex-direction:row
+	}
+}
+@media screen and (min-width: 70em){
+	.u-lContent{
+		width:100%
+	}
+}
+.SocialAccount{
+	border-bottom:1px solid $gray-light
+}
+.SocialAccount__iconTarget:link{
+	border-bottom:none
+}
+.ui-corner-top{
+	border-top-right-radius:0;
+	border-top-left-radius:0
+}
+.ui-tabs-nav a{
+	color:$burgundy-1;
+	text-decoration:none !important;
+	border:none
+}
+.ui-tabs-nav a:visited{
+	color:$burgundy-1
+}
+.ui-tabs-nav a:focus,.ui-tabs-nav a:hover,.ui-tabs-nav a:active{
+	background:$gray-border;
+	color:#fff
+}
+.ui-tabs-nav .ui-state-active,.ui-tabs-nav .ui-state-hover{
+	background-color:transparent !important
+}
+.ui-tabs-nav .ui-state-active a,.ui-tabs-nav .ui-state-hover a{
+	background-color:$burgundy-1
+}
+.ui-tabs-nav .ui-state-active a:visited,.ui-tabs-nav .ui-state-active a:focus,.ui-tabs-nav .ui-state-active a:hover,.ui-tabs-nav .ui-state-active a:active,.ui-tabs-nav .ui-state-hover a:visited,.ui-tabs-nav .ui-state-hover a:focus,.ui-tabs-nav .ui-state-hover a:hover,.ui-tabs-nav .ui-state-hover a:active{
+	background:$gray-border;
+	color:#fff
+}
+.ui-widget-header .ui-state-default{
+	background:#fff
+}
+.ui-widget-header .ui-state-default a{
+	color:$burgundy-1
+}
+.ui-widget-header .ui-state-active,.ui-widget-header .ui-state-hover,.ui-widget-header .ui-state-focus{
+	background:$gray-border
+}
+.ui-widget-header .ui-state-active a,.ui-widget-header .ui-state-hover a,.ui-widget-header .ui-state-focus a{
+	color:#fff
+}
+.u-lHeader{
+	background-image:url(/assets/images/about-header-bg.jpg)
+}
+/* from 7 */
+ .condensed_heading,.SocialSubGroup__heading{
+	text-transform:uppercase;
+	font-family:$sans-serif;
+	font-weight:$fontWeightRegular;
+	letter-spacing:.1em;
+	font-size:1em
+}
+.SocialSubGroup__heading{
+	color:$gray-basic;
+	font-size:3em;
+	text-align:center;
+	margin-bottom:.5em
+}
+.u-Masthead__subhead{
+	text-align:center
+}
+.SocialAccount__label{
+	line-height:1.2
+}
+.SocialAccountGroup{
+	margin-top:1.5em
+}
+.SocialAccount__iconList{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+h4.SocialAccount__label{
+	margin:0 0 .4em;
+	display:block;
+	text-align:center;
+	text-transform:none;
+	font-size:1em;
+	line-height:1.1;
+	font-weight:$fontWeightRegular;
+	font-family:$sans-serif;
+	letter-spacing:normal
+}
+.SocialAccountGroup .ui-tabs-nav li{
+	text-align:center;
+	font-size:.9em;
+	text-transform:uppercase
+}
+@media all and (min-width: 37.5em){
+	h4.SocialAccount__label{
+		margin:0 1em 1em;
+		text-align:right;
+		font-weight:$fontWeightRegular
+	}
+}
+.SocialAccount__iconContainer{
+	margin-right:.75em
+}
+.ui-tabs-nav{
+	padding:0 !important;
+	margin:4em 0 0 0
+}
+.ui-tabs .SocialAccountList.ui-tabs-panel{
+	padding:4em 0
+}
+.ui-tabs-nav{
+	font-weight:$fontWeightBold
+}
+@media screen{
+	.ui-tabs-nav{
+		display:flex;
+		flex-direction:column;
+		justify-content:center
+	}
+	.ui-tabs-nav li{
+		padding:0;
+		display:block;
+		margin:0 .4em 0 .4em
+	}
+	.ui-tabs-nav li a{
+		display:block;
+		padding:.5em
+	}
+	.ui-tabs-nav li:last-child{
+		margin-right:0
+	}
+	.ui-tabs-nav li:first-child{
+		margin-left:0
+	}
+	.SocialAccount{
+		clear:left;
+		overflow:hidden;
+		padding:.2em 0;
+		margin-bottom:1em;
+		text-align:center
+	}
+	li.SocialAccount__iconContainer{
+		display:inline-block;
+		margin:0
+	}
+	.ui-widget-header .ui-state-default a{
+		width:100%
+	}
+	.SocialAccountGroup .ui-tabs-nav li{
+		width:inherit;
+		margin:.4em .2em 0
+	}
+	.SocialAccount__icon{
+		margin:0 0.25em;
+		width:2em
+	}
+	.pageGroup__about--connect .u-lAside,.pageGroup__about--connectIndex-working .u-lAside{
+		display:none;
+		visibility:hidden
+	}
+	.SocialSubGroup .SocialAccount:last-child{
+		padding-bottom:1.75em
+	}
+}
+@media all and (min-width: 37.5em){
+	.SocialAccount{
+		text-align:left
+	}
+	h4.SocialAccount__label{
+		float:left;
+		width:45%
+	}
+}
+@media all and (min-width: 53.75em){
+	.ui-tabs-nav{
+		flex-direction:row
+	}
+}
+@media screen and (min-width: 70em){
+	.u-lContent{
+		width:100%
+	}
+}
+.SocialAccount{
+	border-bottom:1px solid $gray-light
+}
+.ui-corner-top{
+	border-top-right-radius:0;
+	border-top-left-radius:0
+}
+.ui-widget-header .ui-state-default{
+	background:#fff
+}
+.ui-widget-header .ui-state-active,.ui-widget-header .ui-state-hover,.ui-widget-header .ui-state-focus{
+	background:$gray-border
+}
+.ui-widget-header .ui-state-default a{
+	color:$burgundy-1
+}
+.ui-widget-header .ui-state-active a,.ui-widget-header .ui-state-hover a,.ui-widget-header .ui-state-focus a{
+	color:#fff
+}
+.u-lHeader{
+	background:#666 url("../../../assets/images/about-header-bg.jpg") no-repeat center;
+	background-size:cover
+}
+.u-Masthead__subhead a{
+	color:#fff;
+	border-bottom:none
+}
+.u-Masthead__subhead a:visited{
+	color:#fff
+}
+.u-Masthead__subhead a:focus{
+	color:$gray-border
+}
+.u-Masthead__subhead a:hover{
+	color:$gray-border
+}
+.u-Masthead__subhead a:active{
+	color:$gray-basic
+}
+.u-Masthead__subhead a:link{
+	border-bottom:1px solid
+}
+.ui-tabs-nav li a{
+	color:$burgundy-1;
+	text-decoration:none;
+	border:none
+}
+.ui-tabs-nav li a:visited{
+	color:$burgundy-1
+}
+.ui-tabs-nav li a:focus{
+	color:#fff
+}
+.ui-tabs-nav li a:hover{
+	color:#fff
+}
+.ui-tabs-nav li a:active{
+	color:#fff
+}
+.ui-tabs-nav li.ui-state-active{
+	background:$burgundy-1
+}
+.ui-tabs-nav li.ui-state-active a{
+	color:#fff
+}
+.ui-tabs-nav li.ui-state-active a:visited{
+	color:#fff
+}
+.ui-tabs-nav li.ui-state-active a:focus{
+	color:#fff
+}
+.ui-tabs-nav li.ui-state-active a:hover{
+	color:#fff
+}
+.ui-tabs-nav li.ui-state-active a:active{
+	color:#fff
+}
+.ui-tabs-nav li a:active,.ui-tabs-nav li a:hover{
+	background:$gray-border
+}
+.SocialAccount__iconTarget:link{
+	border-bottom:none
+}
+/* Jeff Mac Nov 24 */
+ @media (min-width: 37.5em) {
+	 .SocialAccount__iconList {
+		 text-align: left;
+	}
+}
+ .ui-tabs-nav li.ui-state-active {
+	background:transparent
+}
+ .ui-tabs-nav li.ui-state-active a{
+	background:$burgundy-1
+}
+ .SocialAccount__iconTarget:focus:before, .SocialAccount__iconTarget:hover:before {
+	 border-color: transparent;
+}
+ .SocialAccount__iconTarget:focus img, .SocialAccount__iconTarget:hover img {
+	 filter: grayscale(1);
+}
+ .modulesArea .Module__fullWidthMargins.Social__disclaimer {
+	 max-width: 39em;
+	 margin: 4% auto;
+}
+ .modulesArea .Module__fullWidthMargins.Social__disclaimer ul {
+	 column-count: 2;
+}
+ .social__rules__link {
+	 text-align: center;
+	 margin-top: 3em;
+}
+ .social__rules__link a:link {
+	 color: $burgundy-1;
+}

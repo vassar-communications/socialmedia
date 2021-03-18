@@ -1,0 +1,37 @@
+/*	TYPOGRAPHY
+	========== */
+
+$sans-serif: "Source Sans Variable", sans-serif;
+$serif: freight-big-pro, serif;
+$fontWeightLight: 300;
+$fontWeightRegular: 400;
+$fontWeightMedium: 600;
+$fontWeightBold: 600;
+
+/*	LAYOUT
+	====== */
+
+/* Site breakpoints */
+
+$tiny: 37.25em; /* 400px divided by 16px */
+$small: 56.25em; /* 600px divided by 16px */
+$medium: 56.25em; /* 800px divided by 16px */
+$large: 62.5em; /* 1000px divided by 16px */
+$xlarge: 143.75em;
+
+/* COLOR
+	====== */
+
+$burgundy-1: #951829;
+$burgundy-2: #641A2B;
+$burgundy-bright: #ED1C24;
+$gray-border: #c1c1c1;
+$gray-light: #f0eeeb;
+$gray-basic: #63666A;
+$gray-dark: #444;
+
+$linkColor: #951829;
+$linkColorHoverFocus: #d7cfcc;
+$linkColorVisited: #63666A;
+$linkColorActive: #ED1C24;
+$linkBorderColor: #951829;
